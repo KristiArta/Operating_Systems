@@ -26,14 +26,14 @@
 3. Вызовите vi и создайте файл hello.sh
 ```vi hello.sh```
 4. Нажмите клавишу ```i``` и вводите следующий текст.
-   > #!/bin/bash
-    HELL=Hello
-    function hello {
-        LOCAL HELLO=World
-        echo $HELLO
-    }
-    echo $HELLO
-    hello 
+           #!/bin/bash
+           HELL=Hello
+           function hello {
+               LOCAL HELLO=World
+               echo $HELLO
+           }
+           echo $HELLO
+           hello 
 5. Нажмите клавишу ```Esc``` для перехода в командный режим после завершения ввода
 текста.
 6. Нажмите ```:``` для перехода в режим последней строки и внизу вашего экрана
